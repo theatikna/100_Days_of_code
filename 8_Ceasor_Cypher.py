@@ -9,7 +9,7 @@ def encrypt():
     for char in code:
         if char.isalpha():
             x = alpbhate.index(char)
-            new = (x + shift) % len(alphbate)
+            new = (x + shift) % len(alpbhate)
             j = alpbhate[new]
             newcode += j
         else:
